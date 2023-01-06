@@ -1,6 +1,3 @@
-site_name: Basic MkDocs Example Project
+site_name: Distilled experience
 theme:
   name: material
-  highlightjs: true
-plugins:
-  - search
