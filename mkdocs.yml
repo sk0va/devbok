@@ -4,12 +4,23 @@ repo_url: https://github.com/sk0va/devbok
 copyright: Copyright &copy; 2022 - 2023 sk0va
 
 nav:
-  - index.md
-  - Development process:
-    - For small projects:
-      - Development processes/For small projects/GitFlow vs Trunk-based.md
-      - Development processes/For small projects/GtiFlow - Merge vs Rebase.md
   - Disclaimer: disclaimer.md
+  - Principles:
+    - principles/Two types of applications.md
+  - Development process:
+    - Methodologies:
+      - processes/scrum.md
+    - For small team:
+      - processes/For small team/GitFlow vs Trunk-based.md
+      - processes/For small team/GtiFlow - Merge vs Rebase.md
+  - Arcitecture:
+    - Microservices:
+      - architecture/Microservices/index.md
+    - architecture/Clean Architecture.md
+  - Design:
+    - design/migrations.md
+  - Implementation receipts:
+    - db.md
 
 theme:
   name: material
@@ -19,7 +30,6 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
